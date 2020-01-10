@@ -1,0 +1,8 @@
+Zrealizowac serwis (usluge) windows monitorujaca zasoby sieciowe
+W tym celu dla zadanej listy url przy okreslonym interwale czasowym powinno zostac uruchomione rownolegle pobieranie stron/obrazkow/zasobow odpowiadajacych ulr (bez zagniezdzen - tj dla url strony sam strona bez obrazkow, dla obrazka obrazek itd)
+Po pobraniu dla kazdego elementu nalezy policzyc jego CRC i porownac z CRC dla pobranego ostatnio.
+Plik powinien miec postac url, ostatni dostep, status, crc
+Serwis powinie logowac swoja aktywnosc na roznych poziomach szczegolowosci do pliku/event loga (log4net lub podobne?)
+Wielowatkowosc zrealizowac jako operacje asynchroniczne
+Do aplikacji dodac gui komunikujace sie z serwisem
+Zdefiniowac wlasny perf. counter
